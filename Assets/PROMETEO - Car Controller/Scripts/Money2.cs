@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Money : MonoBehaviour
+public class Money2 : MonoBehaviour
 {
     [SerializeField] private Text textMoney;
-    public int countMoney;
+    private int countMoney;
 
 
     private void OnTriggerEnter(Collider other)
@@ -23,8 +23,7 @@ public class Money : MonoBehaviour
         if (countMoney == 10)
         {
             countMoney = 0;
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(0);
         }
     }
-   
 }
