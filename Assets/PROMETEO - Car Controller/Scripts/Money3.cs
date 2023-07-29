@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Money2 : MonoBehaviour
+public class Money3 : MonoBehaviour
 {
     [SerializeField] private Text textMoney;
     private int countMoney;
@@ -23,7 +23,7 @@ public class Money2 : MonoBehaviour
         if (countMoney == 10)
         {
             countMoney = 0;
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(0);
         }
     }
 }

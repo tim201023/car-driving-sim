@@ -970,8 +970,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.000045776, y: -210.61542}
-  m_SizeDelta: {x: 1000, y: 422.1808}
+  m_AnchoredPosition: {x: -0.000045776, y: -237.18192}
+  m_SizeDelta: {x: 1000, y: 475.3138}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2061743344
 MonoBehaviour:
@@ -986,7 +986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1006,20 +1006,22 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Moving: WASD (keypads)
+  m_Text: 'Moving: "W"A"S"D" (keypads)
 
-    Lights: E (keypad)
+    Lights: "E" (keypad)
 
-    Turn signals: Right,
-    Left (keypads)
+    Turn signals:
+    Right and Left arrows (keypads)
 
-    Emergency gang: R (keypad)
+    Emergency gang: "R "(keypad)
+
+    Hand Brake:
+    "Space" (keypad)
 
 
-    Collect the coins and get
-    the money
+    Collect the coins and go to a new level !
 
-    on these money you can buy a new car'
+'
 --- !u!222 &2061743345
 CanvasRenderer:
   m_ObjectHideFlags: 0
