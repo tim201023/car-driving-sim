@@ -8,7 +8,7 @@ public class Menu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(8);
     }
     public void BackToMenu()
     {
@@ -21,6 +21,14 @@ public class Menu : MonoBehaviour
     public void Description()
     {
         SceneManager.LoadScene(2);
+    }
+    public void Level()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void Free()
+    {
+        SceneManager.LoadScene(9);
     }
     
 
